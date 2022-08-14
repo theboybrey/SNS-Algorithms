@@ -7,5 +7,11 @@ class Sort
 
         int L[] = new int[low];
         int R[] = new int[high];
+
+        int i = 0, j = 0;
+        for (i = 0; i < low; i++){
+            L[i] = arr[left + i];
+            
+        }
     }
 }
